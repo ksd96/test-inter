@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/test-inter/static/css/main.3ae0490c.chunk.css",
-    "main.js": "/test-inter/static/js/main.8a4ffd7f.chunk.js",
-    "main.js.map": "/test-inter/static/js/main.8a4ffd7f.chunk.js.map",
+    "main.css": "/test-inter/static/css/main.da498455.chunk.css",
+    "main.js": "/test-inter/static/js/main.1a9dc65c.chunk.js",
+    "main.js.map": "/test-inter/static/js/main.1a9dc65c.chunk.js.map",
     "runtime-main.js": "/test-inter/static/js/runtime-main.0350bf7d.js",
     "runtime-main.js.map": "/test-inter/static/js/runtime-main.0350bf7d.js.map",
     "static/js/2.f8d6b6bb.chunk.js": "/test-inter/static/js/2.f8d6b6bb.chunk.js",
     "static/js/2.f8d6b6bb.chunk.js.map": "/test-inter/static/js/2.f8d6b6bb.chunk.js.map",
     "index.html": "/test-inter/index.html",
-    "static/css/main.3ae0490c.chunk.css.map": "/test-inter/static/css/main.3ae0490c.chunk.css.map",
+    "static/css/main.da498455.chunk.css.map": "/test-inter/static/css/main.da498455.chunk.css.map",
     "static/js/2.f8d6b6bb.chunk.js.LICENSE.txt": "/test-inter/static/js/2.f8d6b6bb.chunk.js.LICENSE.txt",
     "static/media/card.scss": "/test-inter/static/media/like-inactive.49570bcb.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0350bf7d.js",
     "static/js/2.f8d6b6bb.chunk.js",
-    "static/css/main.3ae0490c.chunk.css",
-    "static/js/main.8a4ffd7f.chunk.js"
+    "static/css/main.da498455.chunk.css",
+    "static/js/main.1a9dc65c.chunk.js"
   ]
 }
