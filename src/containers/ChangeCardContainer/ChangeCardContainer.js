@@ -24,7 +24,7 @@ const ChangeCardContainer = () => {
     newCards[store.activeCard] = data;
     changeStorage(newCards);
     dispatch(actionsPlaces.changeCards(newCards));
-    history.push("/");
+    history.push("/test-inter");
   }, [store.cards, dispatch, history, store.activeCard]);
 
   const deleteCardHandler = useCallback(() => {
@@ -32,7 +32,7 @@ const ChangeCardContainer = () => {
     delete newCards[store.activeCard];
     changeStorage(newCards);
     dispatch(actionsPlaces.changeCards(newCards));
-    history.push("/");
+    history.push("/test-inter");
   }, [store.cards, dispatch, history, store.activeCard]);
 
   let componentToRender;
@@ -40,7 +40,7 @@ const ChangeCardContainer = () => {
     componentToRender = <ChangeCard onDeleteCard={deleteCardHandler} onChangeInfoCard={changeInfoCardHandler} data={card} />
   } else {
     componentToRender = null;
-    history.push("/");
+    history.push("/test-inter");
   }
 
   return (

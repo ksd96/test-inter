@@ -14,7 +14,11 @@ const CardsList = () => {
   const history = useHistory();
 
   useEffect(() => {
-    const cardsStore = JSON.parse(localStorage.getItem("cards"));
+    let cardsStore = JSON.parse(localStorage.getItem("cards"));
+    if (!cardsStore) {
+      changeStorage({});
+      cardsStore = {};
+    }
     dispatch(actionsPlaces.changeCards(cardsStore));
   }, [dispatch]);
 
@@ -32,7 +36,7 @@ const CardsList = () => {
 
   const changeActiveCardHandler = useCallback((date) => {
     dispatch(actionsPlaces.changeActiveCard(date));
-    history.push("/change");
+    history.push("/test-inter/change");
   }, [dispatch, history]);
 
   const sortMax = useCallback(() => {

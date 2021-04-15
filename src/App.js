@@ -7,13 +7,13 @@ function App() {
   return (
     <main className="main">
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/test-inter">
           <CardsList />
         </Route>
-        <Route path="/create">
+        <Route path="/test-inter/create">
           <CreateCardContainer />
         </Route>
-        <Route path="/change">
+        <Route path="/test-inter/change">
           <ChangeCardContainer />
         </Route>
       </Switch>

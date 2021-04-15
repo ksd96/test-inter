@@ -6,17 +6,17 @@ import { actionsPlaces } from "../../store/actions/actionsPlaces";
 import { changeStorage } from "../../store/utils/utils";
 
 const CreateCardContainer = () => {
-  const cards = useSelector((store) => store.cards.cards);
+  const store = useSelector((store) => store.cards);
   const dispatch = useDispatch();
   const history = useHistory();
 
   const createCardHandler = useCallback((data) => {
-    const newCards = cards;
+    const newCards = store.cards;
     newCards[data.date] = data;
     changeStorage(newCards);
     dispatch(actionsPlaces.changeCards(newCards));
-    history.push("/");
-  }, [cards, dispatch, history]);
+    history.push("/test-inter");
+  }, [store.cards, dispatch, history]);
 
   return (
     <CreateCard onCreateCard={createCardHandler} />
