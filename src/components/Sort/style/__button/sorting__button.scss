@@ -1,0 +1,17 @@
+.sorting__button {
+  border: none;
+
+  background-color: inherit;
+
+  margin: 0;
+  padding: 5px;
+  margin-right: 5px;
+
+  height: 40px;
+
+  cursor: pointer;
+
+  &:hover {
+    color: lightcoral;
+  }
+}

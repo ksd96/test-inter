@@ -1,0 +1,18 @@
+@import "./__form/change-card__form.scss";
+@import "./__buttons/change-card__buttons.scss";
+@import "./__title/change-card__title.scss";
+@import "./__form-title/change-card__form-title.scss";
+@import "./__form-text/change-card__form-text.scss";
+@import "./__submit/change-card__submit.scss";
+@import "./__delete/change-card__delete.scss";
+
+.change-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  min-height: 90vh;
+  box-sizing: border-box;
+}

@@ -1,0 +1,16 @@
+@import "./__title/create-card__title.scss";
+@import "./__form/create-card__form.scss";
+@import "./__form-title/create-card__form-title.scss";
+@import "./__form-text/create-card__form-text.scss";
+@import "./__submit/create-card__submit.scss";
+
+.create-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  min-height: 90vh;
+  box-sizing: border-box;
+}

@@ -1,0 +1,14 @@
+@import "./__button/add-card__button.scss";
+@import "./__span/add-card__span.scss";
+
+.add-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  min-height: 200px;
+  box-sizing: border-box;
+
+  border: 1px dotted black;
+}

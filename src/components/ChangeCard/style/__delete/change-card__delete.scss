@@ -1,0 +1,13 @@
+.change-card__delete {
+  border: none;
+
+  background-color: inherit;
+
+  color: #000000;
+
+  cursor: pointer;
+
+  &:hover {
+    color: lightblue;
+  }
+}
