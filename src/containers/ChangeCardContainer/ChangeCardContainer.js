@@ -13,7 +13,7 @@ const ChangeCardContainer = () => {
 
   useEffect(() => {
     const messageWarning = () => {
-      alert("Если вы покуните страницу, изменения не сохранятся");
+      alert("Если вы покините страницу, изменения не сохранятся");
     };
     window.addEventListener("popstate", messageWarning)
     return () => {window.removeEventListener("popstate", messageWarning)};

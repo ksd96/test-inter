@@ -3,25 +3,25 @@ import "./style/change-card.scss";
 import PropTypes from 'prop-types';
 
 const ChangeCard = ({data, onChangeInfoCard, onDeleteCard}) => {
-const [state, setState] = useState({title: data.title, text: data.text, date: data.date, like: false});
+const [state, setState] = useState({title: data.title, text: data.text, date: data.date, like: data.like});
 
   const changeTitle = useCallback((evt) => {
     setState({
       title: evt.target.value,
       text: state.text,
-      like: false,
+      like: state.like,
       date: state.date
     })
-  }, [state.text, state.date]);
+  }, [state.text, state.date, state.like]);
 
   const changeText = useCallback((evt) => {
     setState({
       title: state.title,
       text: evt.target.value,
-      like: false,
+      like: state.like,
       date: state.date
     })
-  }, [state.title, state.date]);
+  }, [state.title, state.date, state.like]);
 
   const changeCard = useCallback((evt) => {
     evt.preventDefault();
