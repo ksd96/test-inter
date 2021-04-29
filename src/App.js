@@ -2,6 +2,7 @@ import CardsList from "./containers/CardsList/CardsList";
 import { Switch, Route } from 'react-router-dom';
 import CreateCardContainer from "./containers/CreateCardContainer/CreateCardContainer";
 import ChangeCardContainer from "./containers/ChangeCardContainer/ChangeCardContainer";
+import MagnifierContainer from "./containers/MagnifierContainer/MagnifierContainer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <ChangeCardContainer />
         </Route>
       </Switch>
+      <MagnifierContainer />
     </main>
   );
 }
